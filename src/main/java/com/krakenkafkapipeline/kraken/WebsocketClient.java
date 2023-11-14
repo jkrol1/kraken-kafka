@@ -1,4 +1,4 @@
-package com.krakenkafka.input;
+package com.krakenkafkapipeline.kraken;
 
 import java.net.URI;
 import javax.websocket.ClientEndpoint;
