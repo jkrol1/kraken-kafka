@@ -2,7 +2,7 @@ package com.krakenkafkapipeline.cli;
 
 import com.krakenkafkapipeline.AppConfig;
 
-public class BaseSubCommand {
+public abstract class BaseSubCommand implements Runnable{
     protected final AppConfig appConfig;
 
     public BaseSubCommand(AppConfig appConfig) {

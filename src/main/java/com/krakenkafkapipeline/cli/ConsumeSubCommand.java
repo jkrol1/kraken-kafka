@@ -6,7 +6,7 @@ import com.krakenkafkapipeline.AppConfig;
 import com.krakenkafkapipeline.kafka.Consumer;
 
 @Command(name = "consume")
-public class ConsumeSubCommand extends BaseSubCommand implements Runnable {
+public class ConsumeSubCommand extends BaseSubCommand{
 
     public ConsumeSubCommand(AppConfig appConfig) {
         super(appConfig);

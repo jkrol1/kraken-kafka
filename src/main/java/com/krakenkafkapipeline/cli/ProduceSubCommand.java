@@ -13,7 +13,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 @Command(name = "produce")
-public class ProduceSubCommand extends BaseSubCommand implements Runnable {
+public class ProduceSubCommand extends BaseSubCommand {
     public ProduceSubCommand(AppConfig appConfig) {
         super(appConfig);
     }
